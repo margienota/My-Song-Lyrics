@@ -1,0 +1,36 @@
+div{
+width: 100%;
+height: 400px;
+background-image: url('bg-BG.jpg');
+background-size: cover;
+background-position: center;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+.audio-section, .lyrics-section {
+    text-align: center;
+    margin: 2em 0;
+}
+.lyrics-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
